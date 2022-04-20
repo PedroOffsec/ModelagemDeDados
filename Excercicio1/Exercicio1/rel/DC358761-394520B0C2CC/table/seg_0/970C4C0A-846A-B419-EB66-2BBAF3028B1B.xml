@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="970C4C0A-846A-B419-EB66-2BBAF3028B1B" name="Aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>28A96581-B905-1FE6-3ABA-A4E4DE3F1F47</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_aereo" id="18AD3D95-D43C-3CA4-4494-6C061F3F11E3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>DEB51485-96A9-F638-DBDA-058425131F3C</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="1A7D2BCA-ABC6-C674-9EBC-1AF0E66B43ED">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>3D886C96-A748-AD44-D98A-B5BE7D5CA1A6</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="B0FAF038-E90C-5557-7B0D-2E27F98D7496">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>73200CCA-1D0D-7C4A-367C-03B1934B6879</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="633428BD-F218-F986-B68F-2179C62104C5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>DE127FEF-E309-77AE-7835-CDE40BA8E6FA</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

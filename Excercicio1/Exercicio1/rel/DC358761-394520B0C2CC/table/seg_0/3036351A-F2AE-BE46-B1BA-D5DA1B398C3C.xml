@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3036351A-F2AE-BE46-B1BA-D5DA1B398C3C" name="TipoDeAvião">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>55648B18-1EE5-57EF-B858-91C00A74EEA2</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome_tipo" id="577F54D5-4C8D-30E5-0B53-968EE80E18BF">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>060C446E-0EE2-B2C6-892B-6C4626F90F74</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empresa" id="3CAAAA1D-DCD6-52A8-8580-D75594386436">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>0F64FA17-73D4-0445-B032-C0CBC6A8DCFF</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Confirguração" id="01E184D4-6B18-603B-2A99-39DE0EC5AE6A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:19 UTC</createdTime>
+<generatorID>978948FE-D8DC-265D-B774-FAEB1AE1642E</generatorID>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

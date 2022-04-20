@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55648B18-1EE5-57EF-B858-91C00A74EEA2" name="TipoDeAvião">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:14:53 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome_tipo" id="060C446E-0EE2-B2C6-892B-6C4626F90F74">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:15:04 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Empresa" id="0F64FA17-73D4-0445-B032-C0CBC6A8DCFF">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:15:28 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Confirguração" id="978948FE-D8DC-265D-B774-FAEB1AE1642E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:15:36 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

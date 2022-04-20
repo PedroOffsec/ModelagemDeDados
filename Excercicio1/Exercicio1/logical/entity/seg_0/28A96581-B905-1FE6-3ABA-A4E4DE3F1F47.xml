@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28A96581-B905-1FE6-3ABA-A4E4DE3F1F47" name="Aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:12:38 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cod.aereo" id="DEB51485-96A9-F638-DBDA-058425131F3C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:13:21 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="3D886C96-A748-AD44-D98A-B5BE7D5CA1A6">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:14:06 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cidade" id="73200CCA-1D0D-7C4A-367C-03B1934B6879">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:14:14 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="DE127FEF-E309-77AE-7835-CDE40BA8E6FA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:14:30 UTC</createdTime>
+<ownerDesignName>Exercicio1</ownerDesignName>
+<engineerTo>
+<item key="DC358761-BF3E-44DF-4B43-394520B0C2CC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

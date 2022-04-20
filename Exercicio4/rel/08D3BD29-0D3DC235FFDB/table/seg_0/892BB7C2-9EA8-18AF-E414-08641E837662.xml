@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="892BB7C2-9EA8-18AF-E414-08641E837662" name="Cliente">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>162F9F1E-E341-5C76-AFB3-F8F807F38B33</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="BED76C8B-7990-D2F4-7A17-1D49ED06A3D9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>4C2C8E4B-82D9-DF8E-172D-BB3AF3501BE3</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cpf" id="8BFA7ADA-5C3D-3947-F36F-FD807FBD1151">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>A9FFF074-2B61-67E4-D1C7-0F2FA983E350</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="3211FBEA-204C-5F7F-C3A2-A2D291467ED0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>5C640E09-C690-112A-3518-7AE55F666493</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="6A1927EA-D4DA-EE77-52F5-F9D83816AC13">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>1B821FDC-8F30-9BA9-9951-9785120B04F1</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E19C009C-03AB-7E9D-C111-2AA5259703EB" name="Cliente_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>F6FCA9AB-AB1A-5983-503A-F3A621C3C332</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFA7ADA-5C3D-3947-F36F-FD807FBD1151"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

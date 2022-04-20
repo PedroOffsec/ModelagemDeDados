@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3B37CE5-F3FA-E943-2546-446FF7ED414C" name="Dependentes">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:27:59 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="9DF6FAA0-22AE-4B55-7588-D0289AA0103B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome_dependente" id="93E5C05F-32D5-9614-6D9A-6A876B42D056">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:28:49 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="9DF6FAA0-22AE-4B55-7588-D0289AA0103B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="9F741D84-9498-83B1-38D9-214DD1851B6B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:29:12 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="9DF6FAA0-22AE-4B55-7588-D0289AA0103B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_nasc" id="D9D3BB4E-B2EE-4B07-2366-B481906EBD11">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:29:52 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="9DF6FAA0-22AE-4B55-7588-D0289AA0103B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="034CD336-80DE-007B-7560-2BFDD33FFA32">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:30:05 UTC</createdTime>
+<ownerDesignName>Exercicio2</ownerDesignName>
+<engineerTo>
+<item key="9DF6FAA0-22AE-4B55-7588-D0289AA0103B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

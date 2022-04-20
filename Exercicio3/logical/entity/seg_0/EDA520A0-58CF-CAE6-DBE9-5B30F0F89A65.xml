@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDA520A0-58CF-CAE6-DBE9-5B30F0F89A65" name="Estudante">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:33:53 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="primeiro_nome" id="A9DBE6CB-633B-E60F-A4F7-791D7503F597">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:36:57 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ultimo_nome" id="351BDE33-4B59-3110-474B-EB4A3D47A827">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:37:27 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="109B1868-CC96-653B-9607-98AC8FD43C9C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:37:44 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="0E74ECE3-E732-3AF8-D6CE-38D80ADDB698">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:38:07 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="E68B2B94-5AD6-BF85-5157-C73D65C3DE96">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:39:39 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="B18FD450-1A39-7254-070D-C0FC0867130A">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:39:49 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="A601AC01-EFA1-7316-FA4C-CA0B17888241">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:39:56 UTC</createdTime>
+<ownerDesignName>exercicio3</ownerDesignName>
+<engineerTo>
+<item key="203742B9-E455-6F3D-5949-8B3ECCDCA312" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

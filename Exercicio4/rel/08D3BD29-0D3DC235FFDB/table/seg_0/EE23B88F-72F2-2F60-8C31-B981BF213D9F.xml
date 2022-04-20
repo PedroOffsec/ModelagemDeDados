@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE23B88F-72F2-2F60-8C31-B981BF213D9F" name="Conta">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>E9F8770D-637D-BF2D-DAEC-7F05EFA53458</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="2BB0DE7A-9643-494D-8AAB-6A0369A1190C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>DD4B5800-D8F8-55B0-843B-066FF0AAD568</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="FCF4E0F3-225B-95C0-0C21-259E520A03F0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>42236DB3-81B7-076A-971B-A768298917EB</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="7A94BD0D-0B5D-1098-0762-24D3C5612D91">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>C2C427D0-6429-057C-3DEF-9B39A021B54A</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

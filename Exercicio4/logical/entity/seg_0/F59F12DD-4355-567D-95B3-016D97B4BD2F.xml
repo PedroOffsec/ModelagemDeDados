@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F59F12DD-4355-567D-95B3-016D97B4BD2F" name="Agencia_bancaria">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:48:56 UTC</createdTime>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<engineerTo>
+<item key="08D3BD29-A93E-5492-D607-0D3DC235FFDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Num_agencia" id="8EBAEA12-2571-CFD9-EEEC-C9E740DDF1A8">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:49:21 UTC</createdTime>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<engineerTo>
+<item key="08D3BD29-A93E-5492-D607-0D3DC235FFDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="5653976D-B3E0-8473-733C-E1A53F9AD714">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:49:30 UTC</createdTime>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<engineerTo>
+<item key="08D3BD29-A93E-5492-D607-0D3DC235FFDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="58BB3F8D-CBBC-6397-306A-AE810019865B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:49:59 UTC</createdTime>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<engineerTo>
+<item key="08D3BD29-A93E-5492-D607-0D3DC235FFDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF0F8046-C50C-54E6-29B1-750A5CC41AEE" name="Agencia_bancaria PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:50:21 UTC</createdTime>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<engineerTo>
+<item key="08D3BD29-A93E-5492-D607-0D3DC235FFDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EBAEA12-2571-CFD9-EEEC-C9E740DDF1A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DE4DBFE-DEF5-C724-3988-E19DEF622D21" name="Banco">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>EE67DC11-DB80-3F32-5F68-FBD4747D6743</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="D40455EB-AACE-D13E-390C-564CC255EE33">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>CDB9CDAB-3C3F-E429-75E7-C6442021AFFE</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="79D4CD43-8517-605E-875F-ECD3FC3341F1">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>8B6CE89E-64F7-718C-568C-73B78F8C650F</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="808CFFC1-8D6F-9641-9AF6-3BEA4ECBF53C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>8B704947-DA78-9886-D738-FE510833CDC6</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="794970AD-3EFE-50B9-3B44-09FC0BCEE8B2" name="Banco_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>07BB16DA-D549-D67C-239A-0942C8CADD10</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D4CD43-8517-605E-875F-ECD3FC3341F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

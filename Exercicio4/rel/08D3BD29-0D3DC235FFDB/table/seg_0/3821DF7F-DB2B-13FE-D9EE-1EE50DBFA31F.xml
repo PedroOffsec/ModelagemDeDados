@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3821DF7F-DB2B-13FE-D9EE-1EE50DBFA31F" name="Agencia_bancaria">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>F59F12DD-4355-567D-95B3-016D97B4BD2F</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Num_agencia" id="559A558A-E6AD-6725-0277-D492CB34C1AB">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>8EBAEA12-2571-CFD9-EEEC-C9E740DDF1A8</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="60C0AC50-C31A-942F-7733-C1824C14AE18">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>5653976D-B3E0-8473-733C-E1A53F9AD714</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="4B5DDC95-FB43-68BF-C75C-78BD91507283">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>58BB3F8D-CBBC-6397-306A-AE810019865B</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87851D32-180D-7A07-E41B-4E46ACFAE060" name="Agencia_bancaria_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:53:52 UTC</createdTime>
+<generatorID>BF0F8046-C50C-54E6-29B1-750A5CC41AEE</generatorID>
+<ownerDesignName>Exercicio4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="559A558A-E6AD-6725-0277-D492CB34C1AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

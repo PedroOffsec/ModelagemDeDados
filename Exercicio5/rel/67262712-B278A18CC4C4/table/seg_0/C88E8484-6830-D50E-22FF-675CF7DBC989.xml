@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C88E8484-6830-D50E-22FF-675CF7DBC989" name="Aluno">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>A2E4E9B2-A30E-13D2-A0BC-EEE1EB5BFEBA</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="2F52FA9A-C49F-A312-7447-CE7554F5A8B2">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>5F40F720-A514-148B-F6BD-B9C02DEB4458</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_nasc" id="DDF7C8C6-BBE8-2CF4-7F9B-93B28A73FC9B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>9D33A84E-FB71-8AD7-5685-66A2BC2362C8</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereço" id="BFB17ED3-0F7B-8708-A5F6-E750898E4700">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>3E3649A6-7008-A664-B9F4-5AC3A1080525</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aluno_ID" id="1F56DA52-E2B0-7943-5954-9E0048098DA9">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Matricula_Matricula_ID" id="A7955637-3176-744B-D758-6ECE462EF85D">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F1036E3-DDB5-14BA-97FB-DE9570878BE9" referredColumn="41B23255-E508-B77C-BB6C-4623B5E565BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="266885B5-CF07-EB49-F57C-7DF17B891ACC" name="Aluno_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="1F56DA52-E2B0-7943-5954-9E0048098DA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA7E993D-F82B-990C-C5BA-D182C83BD05C" name="Aluno__IDX">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>94DCD310-D5B1-3683-BCA4-D21879BF9814</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7955637-3176-744B-D758-6ECE462EF85D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75BD5B69-344A-BA6C-2F74-5D2CF688E9E0" name="Aluno_Matricula_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>94DCD310-D5B1-3683-BCA4-D21879BF9814</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7955637-3176-744B-D758-6ECE462EF85D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

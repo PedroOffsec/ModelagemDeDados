@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fk_Aluno_Tem_Nota" directorySegmentName="seg_0" id="1E678874-3D9D-C358-6DE8-6C79503A1664">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:00:28 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="67262712-6EA9-028E-68D2-B278A18CC4C4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2E4E9B2-A30E-13D2-A0BC-EEE1EB5BFEBA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFE015E0-5BD0-9C76-C09D-E97DAE34267B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

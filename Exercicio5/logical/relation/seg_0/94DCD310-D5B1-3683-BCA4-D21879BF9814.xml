@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Aluno_Tem_Matricula" directorySegmentName="seg_0" id="94DCD310-D5B1-3683-BCA4-D21879BF9814">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:09 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<engineerTo>
+<item key="67262712-6EA9-028E-68D2-B278A18CC4C4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2E4E9B2-A30E-13D2-A0BC-EEE1EB5BFEBA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>10A1449F-FB1D-DC29-9098-CDF43372E054</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

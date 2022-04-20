@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="654FA728-7ACD-59C5-BE01-575CA3DF43DA" name="FK_Curso_Possui_Disciplinas">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_Curso_ID" id="59050C97-9145-7E7D-6543-339E6CA04932">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC8FA68A-412D-6BCF-1185-CCE09C0299CD" referredColumn="CAF915F2-0567-9B1E-0E43-9EE35A83AAEE"/>
+</associations>
+</Column>
+<Column name="Disciplina_Disciplina_ID" id="0E2B6920-39F0-EB85-CC2E-0D0A1C52B80F">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CB48C32-AB72-4702-6AB1-AB7F01C457E9" referredColumn="8395E9B2-9229-F405-5297-896DED72906A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66D872CF-88C4-0FD6-2975-A01548968C5D" name="FK_Curso_Possui_Disciplinas_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59050C97-9145-7E7D-6543-339E6CA04932"/>
+<colUsage columnID="0E2B6920-39F0-EB85-CC2E-0D0A1C52B80F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CA2E374-675E-F763-0BB5-27BFF448AC8B" name="FK_Curso_Possui_Disciplinas_Curso_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>1DE5764F-2FDB-B62D-B214-67BCE5D2B895</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59050C97-9145-7E7D-6543-339E6CA04932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56612B0E-CFC4-F701-4F3F-7914E0B2259F" name="FK_Curso_Possui_Disciplinas_Disciplina_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:03:43 UTC</createdTime>
+<generatorID>1DE5764F-2FDB-B62D-B214-67BCE5D2B895</generatorID>
+<ownerDesignName>Exercicio5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E2B6920-39F0-EB85-CC2E-0D0A1C52B80F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
